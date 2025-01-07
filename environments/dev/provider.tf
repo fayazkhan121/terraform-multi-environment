@@ -1,0 +1,6 @@
+provider "aws" {
+  region = var.region
+  # Possibly use environment variables or a profile
+  # shared_credentials_files = ...
+  # profile                 = ...
+}
